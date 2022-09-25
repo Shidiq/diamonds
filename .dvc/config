@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-remote
+['remote "dvc-remote"']
+    url = /Volumes/99% Virus/dvc_temp

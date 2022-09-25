@@ -2,6 +2,7 @@
 
 ## Folder Structure
 
+```
 ├── README.md
 ├── data                  # <-- Directory with raw and intermediate data
 │   ├── data.xml          # <-- Initial XML StackOverflow dataset (raw data)
@@ -29,3 +30,4 @@
     ├── prepare.py
     ├── requirements.txt  # <-- Python dependencies needed in the project
     └── train.py
+```
