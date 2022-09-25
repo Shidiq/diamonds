@@ -1,5 +1,40 @@
 # Diamonds
 
+<blockquote class="quoteback" darkmode="" data-title="Diamonds" data-author="@kaggledatasets" cite="https://www.kaggle.com/datasets/shivam2503/diamonds">
+<h2 class="sc-bjUoiL sc-idiyUo sc-dOaiCS fykzbL cAPRbO">About Dataset</h2><h3>Context</h3>
+<p>This classic dataset contains the prices and other attributes of almost 54,000 diamonds. It's a great dataset for beginners learning to work with data analysis and visualization.</p>
+<h3>Content</h3>
+<p><strong>price</strong> price in US dollars (\$326--\$18,823)</p>
+<p><strong>carat</strong> weight of the diamond (0.2--5.01)</p>
+<p><strong>cut</strong> quality of the cut (Fair, Good, Very Good, Premium, Ideal)</p>
+<p><strong>color</strong> diamond colour, from J (worst) to D (best)</p>
+<p><strong>clarity</strong> a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))</p>
+<p><strong>x</strong> length in mm (0--10.74)</p>
+<p><strong>y</strong> width in mm (0--58.9)</p>
+<p><strong>z</strong> depth in mm (0--31.8)</p>
+<p><strong>depth</strong> total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)</p>
+<p><strong>table</strong> width of top of diamond relative to widest point (43--95)</p>
+<footer>@kaggledatasets<cite> <a href="https://www.kaggle.com/datasets/shivam2503/diamonds">https://www.kaggle.com/datasets/shivam2503/diamonds</a></cite></footer>
+</blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
+
+
+## Features Carat : 
+- Carat weight of the Diamond.
+- Cut : Describe cut quality of the diamond. 
+    - Quality in increasing order Fair, Good, Very Good, Premium, Ideal . 
+- Color : Color of the Diamond. . With D being the best and J the worst. 
+- Clarity : Diamond Clarity refers to the absence of the Inclusions and Blemishes. 0 (In order from Best to Worst, FL = flawless, 13= level 3 inclusions) FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, 11, 12, 13
+- Depth : The Height of a Diamond, measured from the Culet to the table, divided by its average Girdle Diameter.
+- Table: The Width of the Diamond's Table expressed as a Percentage of its Average Diameter.
+- Price : the Price of the Diamond. 
+- X : Length of the Diamond in mm. 
+- Y : Width of the Diamond in mm. 
+- Z : Height of the Diamond in mm. 
+
+> Qualitative Features (Categorical) : Cut, Color, Clarity.
+> Quantitative Features (Numerical) : Carat, Depth, Table, Price , X, Y, Z.
+> Price is the Target Variable.
+
 ## Folder Structure
 
 ```
@@ -41,3 +76,6 @@
 - [Detailed exploratory data analysis with python  Kaggle](https://www.kaggle.com/code/ekami66/detailed-exploratory-data-analysis-with-python/notebook)
 - [Exploratory Data Analysis EDA For Categorical Data  by Kurtis Pykes  Heartbeat](https://heartbeat.comet.ml/exploratory-data-analysis-eda-for-categorical-data-870b37a79b65)
 - [Comprehensive Confidence Intervals for Python Developers  Pythonic Excursions](https://aegis4048.github.io/comprehensive_confidence_intervals_for_python_developers)
+- [Diamonds In-Depth Analysis  Kaggle](https://www.kaggle.com/code/fuzzywizard/diamonds-in-depth-analysis)
+- [Diamond Price Prediction  Kaggle](https://www.kaggle.com/code/karnikakapoor/diamond-price-prediction)
+- [Regression on Diamonds Dataset (95% score)  Kaggle](https://www.kaggle.com/code/heeraldedhia/regression-on-diamonds-dataset-95-score/notebook)
