@@ -1,0 +1,4 @@
+outs:
+- md5: bb67f2679c70a62b35220f7e90a6174a
+  size: 3192560
+  path: diamonds.csv
