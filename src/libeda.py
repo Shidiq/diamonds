@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 class EDA:
     @staticmethod
     def cat_value_counts(data):
@@ -9,3 +12,16 @@ class EDA:
             print("\nCategorical feature: ", f)
             print(" ")
             print(data[f].value_counts())
+
+    @staticmethod
+    def checknum_skew_kurtosis(data):
+        data_num = data.select_dtypes(include=["float64", "int64"])
+
+        res = pd.DataFrame()
+
+        for f in list(data_num):
+            out = dict(data[f].agg(["skew", "kurtosis"]))
+            res.loc[f, "Skewness"] = out["skew"]
+            res.loc[f, "Kurtosis"] = out["kurtosis"]
+
+        return res

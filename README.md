@@ -66,7 +66,9 @@
     ├── requirements.txt  # <-- Python dependencies needed in the project
     └── train.py
 ```
+## Notes:
 
+`data["z"].agg(["skew", "kurtosis"])`
 ## References:
 
 - [10 Things to do when conducting your Exploratory Data Analysis (EDA)  by Alifia C Harmadi  Data Folks Indonesia  Medium](https://medium.com/data-folks-indonesia/10-things-to-do-when-conducting-your-exploratory-data-analysis-eda-7e3b2dfbf812)
